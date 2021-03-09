@@ -5,7 +5,7 @@ body {
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Oswald", sans-serif;
@@ -367,4 +367,59 @@ a {
 
 .g-3 * {
   margin: 0;
+}
+
+/* -----------------------------------------------------------------Profile--------------------------------------------------------------------------------------------------- */
+
+.profile-header {
+  margin-left: 30px;
+  margin-right: 30px;
+  border-bottom: solid 2px #ff6600;
+}
+
+.profile-wrapper {
+  margin-left: 20px;
+  overflow: hidden;
+}
+.profile-photo {
+  background-image: url(../img/profile_photo.jpg);
+  -webkit-background-size: 100%;
+  width: 250px;
+  height: 300px;
+  border: solid 3px #ff6600;
+}
+
+.profile-short-info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  border-right: solid 2px #ff6600;
+}
+.profile-short-info * {
+  border-bottom: solid #ff6600 2px;
+  color: rgb(255, 255, 255);
+}
+
+.dates {
+  margin-top: 20px;
+}
+.film-collection {
+  margin-top: 20px;
+}
+
+/* -----------------------------------------------ABOUT-------------------------------------- */
+.about-header {
+  text-align: center;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-bottom: solid 2px #ff6600;
+}
+
+.about-info {
+  text-align: center;
+}
+.photo {
+  display: flex;
+  justify-content: center;
 }
